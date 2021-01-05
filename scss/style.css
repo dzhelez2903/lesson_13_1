@@ -122,7 +122,6 @@ header {
 }
 
 .header__mobile_menu:hover li a:hover {
-  border-top: 0.2rem solid #ff6033;
   border-bottom: 0.2rem solid #ff6033;
 }
 

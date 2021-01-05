@@ -85,7 +85,6 @@ header {
   top: 65%;
   left: 90%;
   bottom: 0;
-  
 }
 
 .header__mobile_menu::before {
@@ -107,7 +106,7 @@ header {
   display: block;
 }
 
-.header__mobile_menu:hover li a{
+.header__mobile_menu:hover li a {
   text-decoration: none;
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -117,7 +116,6 @@ header {
 }
 
 .header__mobile_menu:hover li a:hover {
-  border-top: 0.2rem solid #ff6033;
   border-bottom: 0.2rem solid #ff6033;
 }
 
