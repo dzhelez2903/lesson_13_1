@@ -160,6 +160,7 @@ html {
 
 .header__text_block__btn {
   font-family: "Raleway Light";
+  font-size: 2rem;
   color: #fff;
   padding: 2rem 0rem;
   background-color: #ff6033;
@@ -202,7 +203,7 @@ html {
   display: flex;
   flex-direction: row-reverse;
   height: 41%;
-  }
+}
 
 .first_section__text_block__heading {
   font-family: "Raleway Bold";
@@ -221,7 +222,6 @@ html {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-
   html {
     font-size: 9px;
   }
@@ -273,9 +273,7 @@ html {
   }
 }
 
-
 @media (min-width: 481px) and (max-width: 767px) {
-
   /*header styls*/
 
   .header {
@@ -314,7 +312,6 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /*header styls*/
 
   .header {
@@ -347,11 +344,9 @@ html {
   }
 
   /*firt section styls*/
-
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
   /*header styls*/
 
   .header {
@@ -384,11 +379,9 @@ html {
   }
 
   /*firt section styls*/
-
 }
 
 @media (min-width: 1200px) {
-
   /*header styls*/
 
   .header {
@@ -441,6 +434,7 @@ html {
       ". . first_section__text_block__text ."
       ". . . .";
   }
-  .first_section__text_block__text { grid-area: first_section__text_block__text;
+  .first_section__text_block__text {
+    grid-area: first_section__text_block__text;
   }
 }
