@@ -284,6 +284,93 @@ html {
   }
 }
 
+/*third section styls*/
+
+.third_section {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #ffe92f;
+
+  .head {
+    grid-area: head;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .third_section__text_block__heading {
+      font-family: "Raleway Bold";
+      color: #262626;
+    }
+
+    .third_section__container__text {
+      display: block;
+      text-align: center;
+      font-family: "Raleway Light";
+      font-size: 1.7rem;
+      color: #262626;
+    }
+  }
+
+  .first {
+    grid-area: first;
+    background: url(../img/grid/1.png) no-repeat;
+    background-position: center center;
+  }
+
+  .second {
+    grid-area: second;
+    background: url(../img/grid/2.png) no-repeat;
+    background-position: center center;
+  }
+
+  .third {
+    grid-area: third;
+    background: url(../img/grid/3.png) no-repeat;
+    background-position: center center;
+  }
+
+  .fourth {
+    grid-area: fourth;
+    background: url(../img/grid/4.png) no-repeat;
+    background-position: center center;
+  }
+
+  .fifth {
+    grid-area: fifth;
+    background: url(../img/grid/5.png) no-repeat;
+    background-position: center center;
+  }
+
+  .bottom {
+    grid-area: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .third_section__container__btn {
+      margin-top: 2rem;
+      padding: 2rem 4.4rem;
+      font-size: 20px;
+      font-family: "Raleway Light";
+      text-transform: uppercase;
+      color: #fff;
+      background-color: #5585a2;
+      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+      border: 0.1rem solid transparent;
+      transition: 0.2s;
+      cursor: pointer;
+    }
+
+    .third_section__container__btn:hover {
+      color: #5585a2;
+      border: 0.1rem solid #5585a2;
+      background-color: #fff;
+    }
+  }
+}
+
 @media (min-width: 0px) and (max-width: 480px) {
   html {
     font-size: 9px;
@@ -384,10 +471,45 @@ html {
       margin-top: 18rem;
     }
   }
+
+    /*third section styls*/
+
+    .third_section {
+      max-width: 48rem;
+    }
+  
+    .third_section__container {
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 9.1% 31.6% 31.6% 9.1%;
+      grid-template-rows: auto 549px 260px 400px 400px auto;
+      gap: 30px 30px;
+      grid-template-areas:
+        "head head head head"
+        "first first first first"
+        "second second third third"
+        "fourth fourth fourth fourth"
+        "fifth fifth fifth fifth"
+        ". bottom bottom .";
+    }
+  
+    .third_section__container {
+      margin: 0 auto;
+      width: 90%;
+      padding: 5rem 0 5rem;
+    }
+  
+    .third_section__text_block__heading {
+      font-size: 6rem;
+    }
+  
+    .third_section__container__text {
+      width: 100%;
+      margin: 5rem 0;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-
   /*header styls*/
 
   .header {
@@ -482,10 +604,46 @@ html {
       font-size: 6rem;
     }
   }
+
+  /*third section styls*/
+
+  .third_section {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+  }
+
+  .third_section__container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 9.1% 31.6% 31.6% 9.1%;
+    grid-template-rows: auto 549px 260px 400px 400px auto;
+    gap: 30px 30px;
+    grid-template-areas:
+      "head head head head"
+      "first first first first"
+      "second second third third"
+      ". fourth fourth ."
+      ". fifth fifth ."
+      ". bottom bottom .";
+  }
+
+  .third_section__container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 5rem 0 5rem;
+  }
+
+  .third_section__text_block__heading {
+    font-size: 6rem;
+  }
+
+  .third_section__container__text {
+    width: 100%;
+    margin: 5rem 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /*header styls*/
 
   .header {
@@ -571,10 +729,46 @@ html {
       font-size: 9rem;
     }
   }
+
+  /*third section styls*/
+
+  .third_section {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
+  }
+
+  .third_section__container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 9.1% 31.6% 31.6% 9.1%;
+    grid-template-rows: auto 549px 260px 400px 400px auto;
+    gap: 30px 30px;
+    grid-template-areas:
+      "head head head head"
+      "first first first first"
+      "second second third third"
+      ". fourth fourth ."
+      ". fifth fifth ."
+      ". bottom bottom .";
+  }
+
+  .third_section__container {
+    margin: 0 auto;
+    width: 50%;
+    padding: 5rem 0 5rem;
+  }
+
+  .third_section__text_block__heading {
+    font-size: 9rem;
+  }
+
+  .third_section__container__text {
+    width: 100%;
+    margin: 5rem 0;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
   /*header styls*/
 
   .header {
@@ -660,10 +854,44 @@ html {
       font-size: 9rem;
     }
   }
+
+  /*third section styls*/
+
+  .third_section {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
+  }
+
+  .third_section__container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 48.72% 14.53% 31.62%;
+    grid-template-rows: auto 260px 260px 400px auto;
+    gap: 30px 30px;
+    grid-template-areas:
+      "head head head"
+      "first first second"
+      "first first third"
+      "fourth fifth fifth"
+      "bottom bottom bottom";
+  }
+
+  .third_section__container {
+    width: 78%;
+    padding: 7.5rem 0 7.5rem;
+  }
+
+  .third_section__text_block__heading {
+    font-size: 9rem;
+  }
+
+  .third_section__container__text {
+    width: 50%;
+    margin: 5rem 0;
+  }
 }
 
 @media (min-width: 1200px) {
-  
   /*header styls*/
 
   .header {
@@ -740,5 +968,39 @@ html {
       line-height: 0.73;
       font-size: 9rem;
     }
+  }
+
+  /*third section styls*/
+
+  .third_section__container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 48.72% 14.53% 31.62%;
+    grid-template-rows: auto 260px 260px 400px auto;
+    gap: 30px 30px;
+    grid-template-areas:
+      "head head head"
+      "first first second"
+      "first first third"
+      "fourth fifth fifth"
+      "bottom bottom bottom";
+  }
+
+  .third_section {
+    max-width: 150rem;
+  }
+
+  .third_section__container {
+    width: 78%;
+    padding: 12rem 0;
+  }
+
+  .third_section__text_block__heading {
+    font-size: 9rem;
+  }
+
+  .third_section__container__text {
+    width: 50%;
+    margin: 5rem 0;
   }
 }
