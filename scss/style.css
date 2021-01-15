@@ -222,13 +222,13 @@ html {
   display: flex;
 }
 
-.first_section__img_container__picture {
+.first_section__container .first_section__img_container__picture {
   border-radius: 50%;
   -webkit-box-shadow: -20px 5px 39px 0px rgba(0, 0, 0, 0.2);
           box-shadow: -20px 5px 39px 0px rgba(0, 0, 0, 0.2);
 }
 
-.first_section__text_block__heading {
+.first_section__container .first_section__text_block__heading {
   font-family: "Raleway Bold";
   font-size: 9rem;
   line-height: 1;
@@ -237,7 +237,7 @@ html {
   margin-bottom: 3.8rem;
 }
 
-.first_section__text_block__text {
+.first_section__container .first_section__text_block__text {
   font-family: "Raleway";
   font-size: 1.7rem;
   color: #fff;
@@ -322,9 +322,8 @@ html {
   background-position-x: 5.5rem;
 }
 
-.second_section .second_section__container .second_section__container__text h2 {
+.second_section .second_section__container .second_section__container__text .second_section__container__text__heading {
   font-family: "Raleway Bold";
-  font-size: 9rem;
   line-height: 1;
   color: #fff;
 }
@@ -385,13 +384,16 @@ html {
   .first_section__text_block {
     text-align: center;
   }
+  .first_section__text_block .first_section__text_block__heading {
+    font-size: 6rem;
+  }
   .first_section__text_block__heading {
     font-size: 6rem;
   }
   /*second section styls*/
   .second_section {
     max-width: 48rem;
-    padding: 3rem 0;
+    padding: 3rem 0 1rem;
   }
   .second_section__container {
     width: 90%;
@@ -405,7 +407,7 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 7.5rem 0 0;
+    padding: 2rem 0 0;
   }
   .second_section__container__text {
     width: 100%;
@@ -413,9 +415,9 @@ html {
     background-position: center;
     text-align: center;
   }
-  .second_section__container__text h2 {
-    font-size: 3rem;
-    margin-top: 8rem;
+  .second_section__container__text .second_section__container__text__heading {
+    font-size: 6rem;
+    margin-top: 18rem;
   }
 }
 
@@ -474,7 +476,7 @@ html {
   .first_section__text_block {
     text-align: center;
   }
-  .first_section__text_block__heading {
+  .first_section__text_block .first_section__text_block__heading {
     font-size: 6rem;
   }
   /*second section styls*/
@@ -503,8 +505,9 @@ html {
     background-position: center;
     text-align: center;
   }
-  .second_section__container__text h2 {
+  .second_section__container__text .second_section__container__text__heading {
     margin-top: 15rem;
+    font-size: 6rem;
   }
 }
 
@@ -559,7 +562,7 @@ html {
   .second_section {
     max-width: 76.8rem;
     min-width: 99.1rem;
-    padding: 7.5rem 0 7.3rem 0;
+    padding: 5rem 0 5rem 0;
   }
   .second_section__container {
     width: 50%;
@@ -581,8 +584,9 @@ html {
     background-position: center;
     text-align: center;
   }
-  .second_section__container__text h2 {
+  .second_section__container__text .second_section__container__text__heading {
     margin-top: 15rem;
+    font-size: 9rem;
   }
 }
 
@@ -659,8 +663,9 @@ html {
     background-position: center;
     text-align: center;
   }
-  .second_section__container__text h2 {
+  .second_section__container__text .second_section__container__text__heading {
     margin-top: 25rem;
+    font-size: 9rem;
   }
 }
 
@@ -721,8 +726,9 @@ html {
     margin-top: 10.5rem;
     padding-top: 23em;
   }
-  .second_section__container__text h2 {
+  .second_section__container__text .second_section__container__text__heading {
     line-height: 0.73;
+    font-size: 9rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

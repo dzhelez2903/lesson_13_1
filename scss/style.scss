@@ -200,27 +200,27 @@ html {
 .first_section__container {
   margin: 0 auto;
   display: flex;
-}
 
-.first_section__img_container__picture {
-  border-radius: 50%;
-  box-shadow: -20px 5px 39px 0px rgba(0, 0, 0, 0.2);
-}
+  .first_section__img_container__picture {
+    border-radius: 50%;
+    box-shadow: -20px 5px 39px 0px rgba(0, 0, 0, 0.2);
+  }
 
-.first_section__text_block__heading {
-  font-family: "Raleway Bold";
-  font-size: 9rem;
-  line-height: 1;
-  color: #fff;
-  line-height: 0.75;
-  margin-bottom: 3.8rem;
-}
+  .first_section__text_block__heading {
+    font-family: "Raleway Bold";
+    font-size: 9rem;
+    line-height: 1;
+    color: #fff;
+    line-height: 0.75;
+    margin-bottom: 3.8rem;
+  }
 
-.first_section__text_block__text {
-  font-family: "Raleway";
-  font-size: 1.7rem;
-  color: #fff;
-  line-height: 2;
+  .first_section__text_block__text {
+    font-family: "Raleway";
+    font-size: 1.7rem;
+    color: #fff;
+    line-height: 2;
+  }
 }
 
 /*second section styls*/
@@ -275,9 +275,8 @@ html {
       background-size: 100% cover;
       background-position-x: 5.5rem;
 
-      h2 {
+      .second_section__container__text__heading {
         font-family: "Raleway Bold";
-        font-size: 9rem;
         line-height: 1;
         color: #fff;
       }
@@ -346,6 +345,10 @@ html {
 
   .first_section__text_block {
     text-align: center;
+
+    .first_section__text_block__heading {
+      font-size: 6rem;
+    }
   }
 
   .first_section__text_block__heading {
@@ -356,7 +359,7 @@ html {
 
   .second_section {
     max-width: 48rem;
-    padding: 3rem 0;
+    padding: 3rem 0 1rem;
   }
 
   .second_section__container {
@@ -367,7 +370,7 @@ html {
   .second_section__container__buttons {
     width: 100%;
     align-items: center;
-    padding: 7.5rem 0 0;
+    padding: 2rem 0 0;
   }
 
   .second_section__container__text {
@@ -375,15 +378,16 @@ html {
     height: 40rem;
     background-position: center;
     text-align: center;
-    
-    h2 {
-      font-size: 3rem;
-      margin-top: 8rem;
+
+    .second_section__container__text__heading {
+      font-size: 6rem;
+      margin-top: 18rem;
     }
   }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+
   /*header styls*/
 
   .header {
@@ -442,10 +446,10 @@ html {
 
   .first_section__text_block {
     text-align: center;
-  }
 
-  .first_section__text_block__heading {
-    font-size: 6rem;
+    .first_section__text_block__heading {
+      font-size: 6rem;
+    }
   }
 
   /*second section styls*/
@@ -472,13 +476,16 @@ html {
     height: 52rem;
     background-position: center;
     text-align: center;
-    h2 {
+
+    .second_section__container__text__heading {
       margin-top: 15rem;
+      font-size: 6rem;
     }
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
   /*header styls*/
 
   .header {
@@ -539,7 +546,7 @@ html {
   .second_section {
     max-width: 76.8rem;
     min-width: 99.1rem;
-    padding: 7.5rem 0 7.3rem 0;
+    padding: 5rem 0 5rem 0;
   }
 
   .second_section__container {
@@ -558,13 +565,16 @@ html {
     height: 52rem;
     background-position: center;
     text-align: center;
-    h2 {
+
+    .second_section__container__text__heading {
       margin-top: 15rem;
+      font-size: 9rem;
     }
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
   /*header styls*/
 
   .header {
@@ -644,13 +654,16 @@ html {
     height: 52rem;
     background-position: center;
     text-align: center;
-    h2 {
+
+    .second_section__container__text__heading {
       margin-top: 25rem;
+      font-size: 9rem;
     }
   }
 }
 
 @media (min-width: 1200px) {
+  
   /*header styls*/
 
   .header {
@@ -722,8 +735,10 @@ html {
     width: 60%;
     margin-top: 10.5rem;
     padding-top: 23em;
-    h2 {
+
+    .second_section__container__text__heading {
       line-height: 0.73;
+      font-size: 9rem;
     }
   }
 }
