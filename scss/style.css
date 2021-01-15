@@ -180,6 +180,9 @@ html {
   padding: 2rem 0rem;
   background-color: #ff6033;
   border: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.4);
           box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.4);
 }
@@ -189,9 +192,6 @@ html {
   background-color: transparent;
   border: 0.2rem solid #ff6033;
   padding: 1.8rem 0rem;
-  cursor: pointer;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
   font-size: 2rem;
 }
 
@@ -208,7 +208,7 @@ html {
           justify-content: center;
 }
 
-/*firt section styls*/
+/*first section styls*/
 .first_section {
   margin: 0 auto;
   width: 100%;
@@ -244,10 +244,96 @@ html {
   line-height: 2;
 }
 
+/*second section styls*/
+.second_section {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #70bfff;
+}
+
+.second_section .second_section__container {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second_section .second_section__container .second_section__container__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.second_section .second_section__container .second_section__container__buttons .second_section__container__buttons__btn {
+  height: 10rem;
+  max-width: 40rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+  font-family: "Raleway Bold";
+  font-size: 2rem;
+  color: #262626;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+}
+
+.second_section .second_section__container .second_section__container__buttons .second_section__container__buttons__btn div {
+  width: 78%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-right: 1px solid #9d9d9d;
+}
+
+.second_section .second_section__container .second_section__container__buttons:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.second_section .second_section__container .second_section__container__text {
+  background: url(../img/second_section_bg.png) no-repeat;
+  background-size: 100% cover;
+  background-position-x: 5.5rem;
+}
+
+.second_section .second_section__container .second_section__container__text h2 {
+  font-family: "Raleway Bold";
+  font-size: 9rem;
+  line-height: 1;
+  color: #fff;
+}
+
 @media (min-width: 0px) and (max-width: 480px) {
   html {
     font-size: 9px;
   }
+  /*header styls*/
   .header {
     max-width: 48rem;
   }
@@ -276,7 +362,7 @@ html {
     width: 100%;
     max-width: 37rem;
   }
-  /*header styls*/
+  /*first section styls*/
   .first_section {
     max-width: 48rem;
     padding: 3rem 0;
@@ -301,6 +387,35 @@ html {
   }
   .first_section__text_block__heading {
     font-size: 6rem;
+  }
+  /*second section styls*/
+  .second_section {
+    max-width: 48rem;
+    padding: 3rem 0;
+  }
+  .second_section__container {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .second_section__container__buttons {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 7.5rem 0 0;
+  }
+  .second_section__container__text {
+    width: 100%;
+    height: 40rem;
+    background-position: center;
+    text-align: center;
+  }
+  .second_section__container__text h2 {
+    font-size: 3rem;
+    margin-top: 8rem;
   }
 }
 
@@ -335,7 +450,7 @@ html {
     width: 100%;
     max-width: 37rem;
   }
-  /*firt section styls*/
+  /*first section styls*/
   .first_section {
     min-width: 48.1rem;
     max-width: 76.7rem;
@@ -361,6 +476,35 @@ html {
   }
   .first_section__text_block__heading {
     font-size: 6rem;
+  }
+  /*second section styls*/
+  .second_section {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+    padding: 3rem 0;
+  }
+  .second_section__container {
+    width: 80%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .second_section__container__buttons {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 7.5rem 0 0;
+  }
+  .second_section__container__text {
+    width: 100%;
+    height: 52rem;
+    background-position: center;
+    text-align: center;
+  }
+  .second_section__container__text h2 {
+    margin-top: 15rem;
   }
 }
 
@@ -389,7 +533,7 @@ html {
     width: 100%;
     max-width: 20rem;
   }
-  /*firt section styls*/
+  /*first section styls*/
   .first_section {
     max-width: 76.8rem;
     min-width: 99.1rem;
@@ -410,6 +554,35 @@ html {
   .first_section__text_block {
     text-align: center;
     width: 100%;
+  }
+  /*second section styls*/
+  .second_section {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
+    padding: 7.5rem 0 7.3rem 0;
+  }
+  .second_section__container {
+    width: 50%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .second_section__container__buttons {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 7.5rem 0 0;
+  }
+  .second_section__container__text {
+    width: 100%;
+    height: 52rem;
+    background-position: center;
+    text-align: center;
+  }
+  .second_section__container__text h2 {
+    margin-top: 15rem;
   }
 }
 
@@ -438,7 +611,7 @@ html {
     width: 100%;
     max-width: 20rem;
   }
-  /*firt section styls*/
+  /*first section styls*/
   .first_section {
     max-width: 119.9rem;
     min-width: 99.2rem;
@@ -459,6 +632,35 @@ html {
   .first_section__text_block {
     text-align: center;
     width: 100%;
+  }
+  /*second section styls*/
+  .second_section {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
+    padding: 7.5rem 0 7.3rem 0;
+  }
+  .second_section__container {
+    width: 50%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .second_section__container__buttons {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 7.5rem 0 0;
+  }
+  .second_section__container__text {
+    width: 100%;
+    height: 52rem;
+    background-position: center;
+    text-align: center;
+  }
+  .second_section__container__text h2 {
+    margin-top: 25rem;
   }
 }
 
@@ -487,7 +689,7 @@ html {
     width: 100%;
     max-width: 20rem;
   }
-  /*firt section styls*/
+  /*first section styls*/
   .first_section {
     max-width: 150rem;
     padding: 7.5rem 0;
@@ -501,6 +703,26 @@ html {
   }
   .first_section__text_block {
     margin-top: 10rem;
+  }
+  /*second section styls*/
+  .second_section {
+    max-width: 150rem;
+  }
+  .second_section__container {
+    width: 78%;
+  }
+  .second_section__container__buttons {
+    width: 40%;
+    margin: 18rem 0;
+    padding-right: 15rem;
+  }
+  .second_section__container__text {
+    width: 60%;
+    margin-top: 10.5rem;
+    padding-top: 23em;
+  }
+  .second_section__container__text h2 {
+    line-height: 0.73;
   }
 }
 /*# sourceMappingURL=style.css.map */
