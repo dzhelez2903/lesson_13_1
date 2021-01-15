@@ -537,7 +537,7 @@ html {
         grid-template-columns: 9.1% 31.6% 31.6% 9.1%;
     -ms-grid-rows: auto 549px 260px 400px 400px auto;
         grid-template-rows: auto 549px 260px 400px 400px auto;
-    gap: 30px 30px;
+    gap: 25px 25px;
         grid-template-areas: "head head head head" "first first first first" "second second third third" "fourth fourth fourth fourth" "fifth fifth fifth fifth" ". bottom bottom .";
   }
   .third_section__container {

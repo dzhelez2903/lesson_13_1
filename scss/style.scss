@@ -472,41 +472,41 @@ html {
     }
   }
 
-    /*third section styls*/
+  /*third section styls*/
 
-    .third_section {
-      max-width: 48rem;
-    }
-  
-    .third_section__container {
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 9.1% 31.6% 31.6% 9.1%;
-      grid-template-rows: auto 549px 260px 400px 400px auto;
-      gap: 30px 30px;
-      grid-template-areas:
-        "head head head head"
-        "first first first first"
-        "second second third third"
-        "fourth fourth fourth fourth"
-        "fifth fifth fifth fifth"
-        ". bottom bottom .";
-    }
-  
-    .third_section__container {
-      margin: 0 auto;
-      width: 90%;
-      padding: 5rem 0 5rem;
-    }
-  
-    .third_section__text_block__heading {
-      font-size: 6rem;
-    }
-  
-    .third_section__container__text {
-      width: 100%;
-      margin: 5rem 0;
-    }
+  .third_section {
+    max-width: 48rem;
+  }
+
+  .third_section__container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 9.1% 31.6% 31.6% 9.1%;
+    grid-template-rows: auto 549px 260px 400px 400px auto;
+    gap: 25px 25px;
+    grid-template-areas:
+      "head head head head"
+      "first first first first"
+      "second second third third"
+      "fourth fourth fourth fourth"
+      "fifth fifth fifth fifth"
+      ". bottom bottom .";
+  }
+
+  .third_section__container {
+    margin: 0 auto;
+    width: 90%;
+    padding: 5rem 0 5rem;
+  }
+
+  .third_section__text_block__heading {
+    font-size: 6rem;
+  }
+
+  .third_section__container__text {
+    width: 100%;
+    margin: 5rem 0;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
