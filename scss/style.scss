@@ -844,6 +844,8 @@ html {
 
   .third_section__container {
     margin: 0 auto;
+    width: 78%;
+    padding: 7.5rem 0 7.5rem;
     display: grid;
     grid-template-columns: 48.72% 14.53% 31.62%;
     grid-template-rows: auto auto auto auto auto;
@@ -854,11 +856,6 @@ html {
       "first first third"
       "fourth fifth fifth"
       "bottom bottom bottom";
-  }
-
-  .third_section__container {
-    width: 78%;
-    padding: 7.5rem 0 7.5rem;
   }
 
   .third_section__text_block__heading {
@@ -952,7 +949,13 @@ html {
 
   /*third section styls*/
 
+  .third_section {
+    max-width: 150rem;
+  }
+
   .third_section__container {
+    width: 78%;
+    padding: 12rem 0;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 48.72% 14.53% 31.62%;
@@ -964,15 +967,6 @@ html {
       "first first third"
       "fourth fifth fifth"
       "bottom bottom bottom";
-  }
-
-  .third_section {
-    max-width: 150rem;
-  }
-
-  .third_section__container {
-    width: 78%;
-    padding: 12rem 0;
   }
 
   .third_section__text_block__heading {
