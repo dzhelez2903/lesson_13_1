@@ -318,8 +318,6 @@ html {
 
 .second_section .second_section__container .second_section__container__text {
   background: url(../img/second_section_bg.png) no-repeat;
-  background-size: 100% cover;
-  background-position-x: 5.5rem;
 }
 
 .second_section .second_section__container .second_section__container__text .second_section__container__text__heading {
@@ -342,7 +340,6 @@ html {
 
 .third_section .head {
   grid-area: head;
-  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -370,32 +367,26 @@ html {
 
 .third_section .first {
   grid-area: first;
-  background: url(../img/grid/1.png) no-repeat;
-  background-position: center center;
 }
 
 .third_section .second {
   grid-area: second;
-  background: url(../img/grid/2.png) no-repeat;
-  background-position: center center;
 }
 
 .third_section .third {
   grid-area: third;
-  background: url(../img/grid/3.png) no-repeat;
-  background-position: center center;
 }
 
 .third_section .fourth {
   grid-area: fourth;
-  background: url(../img/grid/4.png) no-repeat;
-  background-position: center center;
 }
 
 .third_section .fifth {
   grid-area: fifth;
-  background: url(../img/grid/5.png) no-repeat;
-  background-position: center center;
+}
+
+.third_section .grid_img {
+  width: 100%;
 }
 
 .third_section .bottom {
@@ -518,7 +509,8 @@ html {
   .second_section__container__text {
     width: 100%;
     height: 40rem;
-    background-position: center;
+    background-size: 50%;
+    background-position: 5.5rem;
     text-align: center;
   }
   .second_section__container__text .second_section__container__text__heading {
@@ -531,19 +523,16 @@ html {
   }
   .third_section__container {
     margin: 0 auto;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 9.1% 31.6% 31.6% 9.1%;
-        grid-template-columns: 9.1% 31.6% 31.6% 9.1%;
-    -ms-grid-rows: auto 549px 260px 400px 400px auto;
-        grid-template-rows: auto 549px 260px 400px 400px auto;
-    gap: 25px 25px;
-        grid-template-areas: "head head head head" "first first first first" "second second third third" "fourth fourth fourth fourth" "fifth fifth fifth fifth" ". bottom bottom .";
-  }
-  .third_section__container {
-    margin: 0 auto;
     width: 90%;
     padding: 5rem 0 5rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+    -ms-grid-rows: auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
+    gap: 15px 15px;
+        grid-template-areas: "head head head head" "first first first first" "second second third third" "fourth fourth fourth fourth" "fifth fifth fifth fifth" "bottom bottom bottom bottom";
   }
   .third_section__text_block__heading {
     font-size: 6rem;
@@ -649,19 +638,16 @@ html {
   }
   .third_section__container {
     margin: 0 auto;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 9.1% 31.6% 31.6% 9.1%;
-        grid-template-columns: 9.1% 31.6% 31.6% 9.1%;
-    -ms-grid-rows: auto 549px 260px 400px 400px auto;
-        grid-template-rows: auto 549px 260px 400px 400px auto;
-    gap: 30px 30px;
-        grid-template-areas: "head head head head" "first first first first" "second second third third" ". fourth fourth ." ". fifth fifth ." ". bottom bottom .";
-  }
-  .third_section__container {
-    margin: 0 auto;
     width: 80%;
     padding: 5rem 0 5rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+    -ms-grid-rows: auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
+    gap: 15px 15px;
+        grid-template-areas: "head head head head" "first first first first" "second second third third" ". fourth fourth ." ". fifth fifth ." ". bottom bottom .";
   }
   .third_section__text_block__heading {
     font-size: 6rem;
@@ -756,26 +742,23 @@ html {
   }
   .third_section__container {
     margin: 0 auto;
+    width: 90%;
+    padding: 5rem 0 5rem;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 9.1% 31.6% 31.6% 9.1%;
-        grid-template-columns: 9.1% 31.6% 31.6% 9.1%;
-    -ms-grid-rows: auto 549px 260px 400px 400px auto;
-        grid-template-rows: auto 549px 260px 400px 400px auto;
+    -ms-grid-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+    -ms-grid-rows: auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
     gap: 30px 30px;
         grid-template-areas: "head head head head" "first first first first" "second second third third" ". fourth fourth ." ". fifth fifth ." ". bottom bottom .";
-  }
-  .third_section__container {
-    margin: 0 auto;
-    width: 50%;
-    padding: 5rem 0 5rem;
   }
   .third_section__text_block__heading {
     font-size: 9rem;
   }
   .third_section__container__text {
     width: 100%;
-    margin: 5rem 0;
+    margin: 5rem 0 0;
   }
 }
 
@@ -867,8 +850,8 @@ html {
     display: grid;
     -ms-grid-columns: 48.72% 14.53% 31.62%;
         grid-template-columns: 48.72% 14.53% 31.62%;
-    -ms-grid-rows: auto 260px 260px 400px auto;
-        grid-template-rows: auto 260px 260px 400px auto;
+    -ms-grid-rows: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto;
     gap: 30px 30px;
         grid-template-areas: "head head head" "first first second" "first first third" "fourth fifth fifth" "bottom bottom bottom";
   }
@@ -953,8 +936,8 @@ html {
     display: grid;
     -ms-grid-columns: 48.72% 14.53% 31.62%;
         grid-template-columns: 48.72% 14.53% 31.62%;
-    -ms-grid-rows: auto 260px 260px 400px auto;
-        grid-template-rows: auto 260px 260px 400px auto;
+    -ms-grid-rows: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto;
     gap: 30px 30px;
         grid-template-areas: "head head head" "first first second" "first first third" "fourth fifth fifth" "bottom bottom bottom";
   }
