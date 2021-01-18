@@ -425,6 +425,44 @@ html {
   background-color: #fff;
 }
 
+/*fourth section styls*/
+.fourth_section {
+  margin: 0 auto;
+  background: url(../img/fourth_section_bgd.jpg) no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.fourth_section .fourth_section__container {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fourth_section .fourth_section__container .fourth_section__text {
+  width: 66%;
+}
+
+.fourth_section .fourth_section__container .fourth_section__text h2 {
+  font-family: "Raleway Bold";
+  font-size: 4rem;
+  color: #262626;
+}
+
+.fourth_section .fourth_section__container .fourth_section__text p {
+  font-family: "Raleway Light";
+  font-size: 1.7rem;
+  color: #262626;
+  padding: 3.7rem 0;
+}
+
+.fourth_section .fourth_section__container .fourth_section__text input {
+  font-family: "Raleway Light";
+  font-size: 1.5rem;
+  color: #262626;
+}
+
 @media (min-width: 0px) and (max-width: 480px) {
   html {
     font-size: 9px;
@@ -541,6 +579,14 @@ html {
     width: 100%;
     margin: 5rem 0;
   }
+  /*fourth section styls*/
+  .fourth_section {
+    max-width: 48rem;
+    padding: 5rem 0 5rem;
+  }
+  .fourth_section__container {
+    width: 90%;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -656,6 +702,15 @@ html {
     width: 100%;
     margin: 5rem 0;
   }
+  /*fourth section styls*/
+  .fourth_section {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+    padding: 5rem 0 5rem;
+  }
+  .fourth_section__container {
+    width: 80%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -759,6 +814,15 @@ html {
   .third_section__container__text {
     width: 100%;
     margin: 5rem 0 0;
+  }
+  /*fourth section styls*/
+  .fourth_section {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
+    padding: 5rem 0 5rem;
+  }
+  .fourth_section__container {
+    width: 90%;
   }
 }
 
@@ -864,6 +928,15 @@ html {
     width: 50%;
     margin: 5rem 0;
   }
+  /*fourth section styls*/
+  .fourth_section {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
+    padding: 7.5rem 0 7.5rem;
+  }
+  .fourth_section__container {
+    width: 78%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -950,6 +1023,14 @@ html {
   .third_section__container__text {
     width: 50%;
     margin: 5rem 0;
+  }
+  /*fourth section styls*/
+  .fourth_section {
+    max-width: 150rem;
+    padding: 15.3rem 0 16.3rem;
+  }
+  .fourth_section__container {
+    width: 78%;
   }
 }
 /*# sourceMappingURL=style.css.map */
