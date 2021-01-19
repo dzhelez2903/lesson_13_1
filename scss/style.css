@@ -486,6 +486,172 @@ html {
   color: #96b92c;
 }
 
+/*fifth section styls*/
+.fifth_section {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #b07cf7;
+}
+
+.fifth_section .fifth_section__container {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fifth_section .fifth_section__container .fifth_section__heading {
+  font-family: "Raleway Bold";
+  color: #fff;
+}
+
+.fifth_section .fifth_section__container .fifth_section__container__text {
+  display: block;
+  text-align: center;
+  font-family: "Raleway-Light";
+  font-size: 1.7rem;
+  color: #fff;
+  margin: 5rem 0 0 0;
+}
+
+.fifth_section .fifth_section__container .fifth_section__cards_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 5rem 0 0 0;
+}
+
+.fifth_section .fifth_section__container .fifth_section__cards_container .cards {
+  position: relative;
+}
+
+.fifth_section .fifth_section__container .fifth_section__cards_container .fifth_section__cards_container__gradient {
+  display: inline-block;
+  position: relative;
+}
+
+.fifth_section .fifth_section__container .fifth_section__cards_container .fifth_section__cards_container__gradient:before {
+  content: "";
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fifth_section .fifth_section__container .fifth_section__cards_container .fifth_section__cards_container__gradient:hover:before {
+  cursor: default;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  background: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(20%, #62458a), color-stop(40%, #b07cf7), to(#b07cf7));
+  background: linear-gradient(0deg, black 0%, #62458a 20%, #b07cf7 40%, #b07cf7 100%);
+  z-index: 1;
+  opacity: 1;
+}
+
+.fifth_section .fifth_section__container .fifth_section__cards_container .fifth_section__cards_container__gradient:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(black), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(to top, black, rgba(255, 255, 255, 0));
+  opacity: 0.7;
+}
+
+.fifth_section .fifth_section__container .fifth_section__cards_container .fifth_section__cards_container__content_date {
+  display: inline-block;
+  background-color: rgba(78, 85, 94, 0.5);
+  border-radius: 0.6rem;
+  padding: 0.8rem;
+  text-align: center;
+  font-family: "Raleway Heavy";
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 2.5rem;
+  position: absolute;
+  top: 8%;
+  left: 3rem;
+  z-index: 1;
+}
+
+.fifth_section .fifth_section__container .fifth_section__cards_container .fifth_section__cards_container__content_date span {
+  font-family: "Raleway Bold";
+  font-size: 2.5rem;
+}
+
+.fifth_section .fifth_section__container .fifth_section__cards_container .fifth_section__cards_container__content_text_big {
+  position: relative;
+  font-family: "Raleway Bold";
+  color: #fff;
+  top: -29%;
+  left: 2rem;
+  z-index: 1;
+}
+
+.fifth_section .fifth_section__container .fifth_section__cards_container .fifth_section__cards_container__content_text_small {
+  position: relative;
+  font-family: "Raleway Light";
+  font-size: 1.3rem;
+  color: #fff;
+  top: -21%;
+  left: 2rem;
+  z-index: 1;
+}
+
+.fifth_section .fifth_section__container .fifth_section__cards_container img {
+  width: 100%;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.fifth_section .fifth_section__btn {
+  font-family: "Raleway Light";
+  font-size: 2rem;
+  line-height: 0.8;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 2rem 4.4rem;
+  background-color: #f72b3b;
+  border: 0.1rem solid transparent;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.fifth_section .fifth_section__btn:hover {
+  background-color: #fff;
+  border: 0.1rem solid #f72b3b;
+  color: #f72b3b;
+}
+
 @media (min-width: 0px) and (max-width: 480px) {
   html {
     font-size: 9px;
@@ -612,6 +778,20 @@ html {
   }
   .fourth_section__container input {
     width: 100%;
+  }
+  /*fifth section styls*/
+  .fifth_section {
+    max-width: 48rem;
+    padding: 5rem 0 5rem;
+  }
+  .fifth_section__container {
+    width: 90%;
+  }
+  .fifth_section__container .fifth_section__heading {
+    font-size: 6rem;
+  }
+  .fifth_section__container .fifth_section__cards_container__content_text_big {
+    font-size: 1.8rem;
   }
 }
 
@@ -740,6 +920,21 @@ html {
   .fourth_section__container input {
     width: 95%;
   }
+  /*fifth section styls*/
+  .fifth_section {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+    padding: 5rem 0 5rem;
+  }
+  .fifth_section__container {
+    width: 80%;
+  }
+  .fifth_section__container .fifth_section__heading {
+    font-size: 6rem;
+  }
+  .fifth_section__container .fifth_section__cards_container__content_text_big {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -855,6 +1050,21 @@ html {
   }
   .fourth_section__container input {
     width: 85%;
+  }
+  /*fifth section styls*/
+  .fifth_section {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
+    padding: 5rem 0 5rem;
+  }
+  .fifth_section__container {
+    width: 90%;
+  }
+  .fifth_section__container .fifth_section__heading {
+    font-size: 9rem;
+  }
+  .fifth_section__container .fifth_section__cards_container__content_text_big {
+    font-size: 2rem;
   }
 }
 
@@ -972,6 +1182,24 @@ html {
   .fourth_section__container input {
     width: 85%;
   }
+  /*fifth section styls*/
+  .fifth_section {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
+    padding: 7.5rem 0 7.5rem;
+  }
+  .fifth_section__container {
+    width: 78%;
+  }
+  .fifth_section__container .fifth_section__heading {
+    font-size: 9rem;
+  }
+  .fifth_section__container .fifth_section__container__text {
+    width: 90%;
+  }
+  .fifth_section__container .fifth_section__cards_container__content_text_big {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1069,6 +1297,23 @@ html {
   }
   .fourth_section__container input {
     width: 69.6%;
+  }
+  /*fifth section styls*/
+  .fifth_section {
+    max-width: 150rem;
+    padding: 12rem 0;
+  }
+  .fifth_section__container {
+    width: 78%;
+  }
+  .fifth_section__container .fifth_section__heading {
+    font-size: 9rem;
+  }
+  .fifth_section__container .fifth_section__container__text {
+    width: 50%;
+  }
+  .fifth_section__container .fifth_section__cards_container__content_text_big {
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
