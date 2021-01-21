@@ -671,6 +671,11 @@ html {
     font-family: "Raleway Light", sans-serif;
     font-size: 1.6rem;
     color: rgb(185, 185, 185);
+    
+    a {
+      text-decoration: none;
+      color: rgb(185, 185, 185);
+    }
 
     span {
       color: rgb(255, 43, 88);

@@ -786,6 +786,11 @@ html {
   color: #b9b9b9;
 }
 
+.footer p a {
+  text-decoration: none;
+  color: #b9b9b9;
+}
+
 .footer p span {
   color: #ff2b58;
   font-weight: 600;
