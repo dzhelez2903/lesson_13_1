@@ -186,6 +186,7 @@
     height: 20rem;
     margin-bottom: 0;
   }
+  /*footer styls*/
   .footer {
     max-width: 48rem;
     -webkit-box-orient: vertical;
@@ -376,6 +377,7 @@
   .sixth_section__contacts :nth-child(1) {
     margin-top: 2rem;
   }
+  /*footer styls*/
   .footer {
     min-width: 48.1rem;
     max-width: 76.7rem;
@@ -561,6 +563,7 @@
   .sixth_section .sixth_section__contacts :nth-child(1) {
     margin-top: 5rem;
   }
+  /*footer styls*/
   .footer {
     max-width: 76.8rem;
     min-width: 99.1rem;
@@ -744,6 +747,7 @@
   .sixth_section .sixth_section__contacts :nth-child(1) {
     margin-top: 5rem;
   }
+  /*footer styls*/
   .footer {
     max-width: 119.9rem;
     min-width: 99.2rem;
