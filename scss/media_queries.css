@@ -1,0 +1,915 @@
+@media (min-width: 0px) and (max-width: 480px) {
+  html {
+    font-size: 9px;
+  }
+  /*header styls*/
+  .header {
+    max-width: 48rem;
+  }
+  .header__container {
+    width: 90%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header__nav__list__item {
+    display: none;
+  }
+  .header__mobile_menu {
+    top: 60%;
+    left: 74%;
+  }
+  .header__text_block {
+    width: 90%;
+    margin-top: 10rem;
+    margin-bottom: 5.6rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__text_block__btn {
+    width: 100%;
+    max-width: 37rem;
+  }
+  /*first section styls*/
+  .first_section {
+    max-width: 48rem;
+    padding: 3rem 0;
+  }
+  .first_section__container {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .first_section__img_container {
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .first_section__img_container__picture {
+    width: 75%;
+  }
+  .first_section__text_block {
+    text-align: center;
+  }
+  .first_section__text_block .first_section__text_block__heading {
+    font-size: 6rem;
+  }
+  .first_section__text_block__heading {
+    font-size: 6rem;
+  }
+  /*second section styls*/
+  .second_section {
+    max-width: 48rem;
+    padding: 3rem 0 1rem;
+  }
+  .second_section__container {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .second_section__container__buttons {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2rem 0 0;
+  }
+  .second_section__container__text {
+    width: 100%;
+    height: 40rem;
+    background-size: 50%;
+    background-position: 5.5rem;
+    text-align: center;
+  }
+  .second_section__container__text .second_section__container__text__heading {
+    font-size: 6rem;
+    margin-top: 18rem;
+  }
+  /*third section styls*/
+  .third_section {
+    max-width: 48rem;
+  }
+  .third_section__container {
+    margin: 0 auto;
+    width: 90%;
+    padding: 5rem 0 5rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+    -ms-grid-rows: auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
+    gap: 1.5rem 1.5rem;
+        grid-template-areas: "head head head head" "first first first first" "second second third third" "fourth fourth fourth fourth" "fifth fifth fifth fifth" "bottom bottom bottom bottom";
+  }
+  .third_section__text_block__heading {
+    font-size: 6rem;
+  }
+  .third_section__container__text {
+    width: 100%;
+    margin: 5rem 0;
+  }
+  /*fourth section styls*/
+  .fourth_section {
+    max-width: 48rem;
+    padding: 5rem 0 5rem;
+  }
+  .fourth_section__container {
+    width: 90%;
+  }
+  .fourth_section__container input {
+    width: 100%;
+  }
+  /*fifth section styls*/
+  .fifth_section {
+    max-width: 48rem;
+    padding: 5rem 0 5rem;
+  }
+  .fifth_section__container {
+    width: 90%;
+  }
+  .fifth_section__container .fifth_section__heading {
+    font-size: 6rem;
+  }
+  .fifth_section__container .fifth_section__cards_container__content_text_big {
+    font-size: 1.8rem;
+  }
+  /*sixth section styls*/
+  .sixth_section {
+    max-width: 48rem;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10% 80% 10%;
+        grid-template-columns: 10% 80% 10%;
+    -ms-grid-rows: 25.1rem 44.5rem 15.7rem;
+        grid-template-rows: 25.1rem 44.5rem 15.7rem;
+    gap: 0 0;
+        grid-template-areas: "head head head" ". inputs ." ". contacts .";
+  }
+  .sixth_section .input:nth-child(4) {
+    height: 20rem;
+    padding-top: 2.5rem;
+  }
+  .sixth_section .sixth_section__head h2 {
+    font-size: 6rem;
+    margin: 4rem 0;
+  }
+  .sixth_section .sixth_section__head p {
+    font-size: 2rem;
+  }
+  .sixth_section .sixth_section__head :nth-child(2) {
+    margin-top: 0;
+  }
+  .sixth_section .sixth_section__head .sixth_section__inputs.input:nth-child(4) {
+    width: 20rem;
+  }
+  .sixth_section__contacts {
+    color: #fff;
+  }
+  .sixth_section__contacts h6 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  .sixth_section__contacts p {
+    font-size: 1.5rem;
+  }
+  .sixth_section__contacts :nth-child(1) {
+    margin-top: 2rem;
+  }
+  .input:nth-child(4) {
+    height: 20rem;
+    margin-bottom: 0;
+  }
+  .footer {
+    max-width: 48rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    line-height: 4;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /*header styls*/
+  .header {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+  }
+  .header__container {
+    width: 80%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header__nav__list__item {
+    display: none;
+  }
+  .header__mobile_menu {
+    top: 60%;
+    left: 86%;
+  }
+  .header__text_block {
+    width: 90%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__text_block__btn {
+    width: 100%;
+    max-width: 37rem;
+  }
+  /*first section styls*/
+  .first_section {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+    padding: 3rem 0;
+  }
+  .first_section__container {
+    width: 80%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .first_section__img_container {
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .first_section__img_container__picture {
+    width: 75%;
+  }
+  .first_section__text_block {
+    text-align: center;
+  }
+  .first_section__text_block .first_section__text_block__heading {
+    font-size: 6rem;
+  }
+  /*second section styls*/
+  .second_section {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+    padding: 3rem 0;
+  }
+  .second_section__container {
+    width: 80%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .second_section__container__buttons {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 7.5rem 0 0;
+  }
+  .second_section__container__text {
+    width: 100%;
+    height: 52rem;
+    background-position: center;
+    text-align: center;
+  }
+  .second_section__container__text .second_section__container__text__heading {
+    margin-top: 15rem;
+    font-size: 6rem;
+  }
+  /*third section styls*/
+  .third_section {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+  }
+  .third_section__container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 5rem 0 5rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+    -ms-grid-rows: auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
+    gap: 1.5rem 1.5rem;
+        grid-template-areas: "head head head head" "first first first first" "second second third third" ". fourth fourth ." ". fifth fifth ." ". bottom bottom .";
+  }
+  .third_section__text_block__heading {
+    font-size: 6rem;
+  }
+  .third_section__container__text {
+    width: 100%;
+    margin: 5rem 0;
+  }
+  /*fourth section styls*/
+  .fourth_section {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+    padding: 5rem 0 5rem;
+  }
+  .fourth_section__container {
+    width: 80%;
+  }
+  .fourth_section__container input {
+    width: 95%;
+  }
+  /*fifth section styls*/
+  .fifth_section {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+    padding: 5rem 0 5rem;
+  }
+  .fifth_section__container {
+    width: 80%;
+  }
+  .fifth_section__container .fifth_section__heading {
+    font-size: 6rem;
+  }
+  .fifth_section__container .fifth_section__cards_container__content_text_big {
+    font-size: 2rem;
+  }
+  /*sixth section styls*/
+  .sixth_section {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10% 80% 10%;
+        grid-template-columns: 10% 80% 10%;
+    -ms-grid-rows: 25.1rem 44.5rem 15.7rem;
+        grid-template-rows: 25.1rem 44.5rem 15.7rem;
+    gap: 0 0;
+        grid-template-areas: "head head head" ". inputs ." ". contacts .";
+  }
+  .sixth_section .input:nth-child(4) {
+    height: 25rem;
+  }
+  .sixth_section .sixth_section__head h2 {
+    font-size: 6rem;
+    margin: 4rem 0;
+  }
+  .sixth_section .sixth_section__head p {
+    font-size: 2rem;
+  }
+  .sixth_section .sixth_section__head :nth-child(2) {
+    margin-top: 0;
+  }
+  .sixth_section__contacts {
+    color: #fff;
+  }
+  .sixth_section__contacts h6 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  .sixth_section__contacts p {
+    font-size: 1.5rem;
+  }
+  .sixth_section__contacts :nth-child(1) {
+    margin-top: 2rem;
+  }
+  .footer {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    line-height: 4;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /*header styls*/
+  .header {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
+  }
+  .header__container {
+    width: 90%;
+  }
+  .header__nav__list__item {
+    margin: 0rem 0.8rem;
+    margin-top: 5rem;
+  }
+  .header__mobile_menu {
+    display: none;
+  }
+  .header__text_block {
+    width: 90%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  .header__text_block__btn {
+    width: 100%;
+    max-width: 20rem;
+  }
+  /*first section styls*/
+  .first_section {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
+    padding: 5rem 0;
+  }
+  .first_section__container {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .first_section__img_container {
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .first_section__text_block {
+    text-align: center;
+    width: 100%;
+  }
+  /*second section styls*/
+  .second_section {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
+    padding: 5rem 0 5rem 0;
+  }
+  .second_section__container {
+    width: 50%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .second_section__container__buttons {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 7.5rem 0 0;
+  }
+  .second_section__container__text {
+    width: 100%;
+    height: 52rem;
+    background-position: center;
+    text-align: center;
+  }
+  .second_section__container__text .second_section__container__text__heading {
+    margin-top: 15rem;
+    font-size: 9rem;
+  }
+  /*third section styls*/
+  .third_section {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
+  }
+  .third_section__container {
+    margin: 0 auto;
+    width: 90%;
+    padding: 5rem 0 5rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+    -ms-grid-rows: auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
+    gap: 3rem 3rem;
+        grid-template-areas: "head head head head" "first first first first" "second second third third" ". fourth fourth ." ". fifth fifth ." ". bottom bottom .";
+  }
+  .third_section__text_block__heading {
+    font-size: 9rem;
+  }
+  .third_section__container__text {
+    width: 100%;
+    margin: 5rem 0 0;
+  }
+  /*fourth section styls*/
+  .fourth_section {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
+    padding: 5rem 0 5rem;
+  }
+  .fourth_section__container {
+    width: 90%;
+  }
+  .fourth_section__container input {
+    width: 85%;
+  }
+  /*fifth section styls*/
+  .fifth_section {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
+    padding: 5rem 0 5rem;
+  }
+  .fifth_section__container {
+    width: 90%;
+  }
+  .fifth_section__container .fifth_section__heading {
+    font-size: 9rem;
+  }
+  .fifth_section__container .fifth_section__cards_container__content_text_big {
+    font-size: 2rem;
+  }
+  /*sixth section styls*/
+  .sixth_section {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 11.5% 33% 11% 33% 11.5%;
+        grid-template-columns: 11.5% 33% 11% 33% 11.5%;
+    -ms-grid-rows: 25rem 61.6rem;
+        grid-template-rows: 25rem 61.6rem;
+    gap: 0 0;
+        grid-template-areas: "head head head head head" ". inputs . contacts .";
+  }
+  .sixth_section .input:nth-child(4) {
+    height: 25rem;
+  }
+  .sixth_section .sixth_section__head h2 {
+    font-size: 9rem;
+    line-height: 6.5rem;
+    margin-top: 7rem;
+  }
+  .sixth_section .sixth_section__head p {
+    font-size: 2rem;
+  }
+  .sixth_section .sixth_section__head :nth-child(2) {
+    margin-top: 5rem;
+  }
+  .sixth_section .sixth_section__contacts {
+    -ms-grid-row: 2;
+    -ms-grid-column: 4;
+    grid-area: contacts;
+    color: #262626;
+  }
+  .sixth_section .sixth_section__contacts h6 {
+    font-size: 1.7rem;
+    margin-bottom: 0.4rem;
+  }
+  .sixth_section .sixth_section__contacts p {
+    font-size: 2rem;
+    margin-bottom: 0.9rem;
+  }
+  .sixth_section .sixth_section__contacts :nth-child(1) {
+    margin-top: 5rem;
+  }
+  .footer {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*header styls*/
+  .header {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
+  }
+  .header__container {
+    width: 78%;
+  }
+  .header__nav__list__item {
+    margin: 0rem 0.8rem;
+    margin-top: 5rem;
+  }
+  .header__mobile_menu {
+    display: none;
+  }
+  .header__text_block {
+    width: 78%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  .header__text_block__btn {
+    width: 100%;
+    max-width: 20rem;
+  }
+  /*first section styls*/
+  .first_section {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
+    padding: 7.5rem 0;
+  }
+  .first_section__container {
+    width: 78%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .first_section__img_container {
+    width: 100%;
+    text-align: center;
+    margin-top: 10rem;
+  }
+  .first_section__text_block {
+    text-align: center;
+    width: 100%;
+  }
+  /*second section styls*/
+  .second_section {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
+    padding: 7.5rem 0 7.3rem 0;
+  }
+  .second_section__container {
+    width: 50%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .second_section__container__buttons {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 7.5rem 0 0;
+  }
+  .second_section__container__text {
+    width: 100%;
+    height: 52rem;
+    background-position: center;
+    text-align: center;
+  }
+  .second_section__container__text .second_section__container__text__heading {
+    margin-top: 25rem;
+    font-size: 9rem;
+  }
+  /*third section styls*/
+  .third_section {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
+  }
+  .third_section__container {
+    margin: 0 auto;
+    width: 78%;
+    padding: 7.5rem 0 7.5rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 48.72% 14.53% 31.62%;
+        grid-template-columns: 48.72% 14.53% 31.62%;
+    -ms-grid-rows: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto;
+    gap: 3rem 3rem;
+        grid-template-areas: "head head head" "first first second" "first first third" "fourth fifth fifth" "bottom bottom bottom";
+  }
+  .third_section__text_block__heading {
+    font-size: 9rem;
+  }
+  .third_section__container__text {
+    width: 50%;
+    margin: 5rem 0;
+  }
+  /*fourth section styls*/
+  .fourth_section {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
+    padding: 7.5rem 0 7.5rem;
+  }
+  .fourth_section__container {
+    width: 78%;
+  }
+  .fourth_section__container input {
+    width: 85%;
+  }
+  /*fifth section styls*/
+  .fifth_section {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
+    padding: 7.5rem 0 7.5rem;
+  }
+  .fifth_section__container {
+    width: 78%;
+  }
+  .fifth_section__container .fifth_section__heading {
+    font-size: 9rem;
+  }
+  .fifth_section__container .fifth_section__container__text {
+    width: 90%;
+  }
+  .fifth_section__container .fifth_section__cards_container__content_text_big {
+    font-size: 2rem;
+  }
+  /*sixth section styls*/
+  .sixth_section {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 11.5% 33% 11% 33% 11.5%;
+        grid-template-columns: 11.5% 33% 11% 33% 11.5%;
+    -ms-grid-rows: 25rem 61.6rem;
+        grid-template-rows: 25rem 61.6rem;
+    gap: 0 0;
+        grid-template-areas: "head head head head head" ". inputs . contacts .";
+  }
+  .sixth_section .input:nth-child(4) {
+    height: 25rem;
+  }
+  .sixth_section .sixth_section__head h2 {
+    font-size: 9rem;
+    line-height: 6.5rem;
+    margin-top: 7rem;
+  }
+  .sixth_section .sixth_section__head p {
+    font-size: 2rem;
+  }
+  .sixth_section .sixth_section__head :nth-child(2) {
+    margin-top: 5rem;
+  }
+  .sixth_section .sixth_section__contacts {
+    -ms-grid-row: 2;
+    -ms-grid-column: 4;
+    grid-area: contacts;
+    color: #262626;
+  }
+  .sixth_section .sixth_section__contacts h6 {
+    font-size: 1.7rem;
+    margin-bottom: 0.4rem;
+  }
+  .sixth_section .sixth_section__contacts p {
+    font-size: 2rem;
+    margin-bottom: 0.9rem;
+  }
+  .sixth_section .sixth_section__contacts :nth-child(1) {
+    margin-top: 5rem;
+  }
+  .footer {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  /*header styls*/
+  .header {
+    max-width: 150rem;
+    padding-bottom: 7rem;
+  }
+  .header__container {
+    width: 78%;
+  }
+  .header__nav__list__item {
+    margin: 0rem 0.8rem;
+    margin-top: 5rem;
+  }
+  .header__mobile_menu {
+    display: none;
+  }
+  .header__text_block {
+    width: 78%;
+    margin-top: 25rem;
+    margin-bottom: 26.5rem;
+  }
+  .header__text_block__btn {
+    width: 100%;
+    max-width: 20rem;
+  }
+  /*first section styls*/
+  .first_section {
+    max-width: 150rem;
+    padding: 7.5rem 0;
+  }
+  .first_section__container {
+    width: 78%;
+  }
+  .first_section__img_container {
+    width: 56%;
+    margin-right: 10rem;
+  }
+  .first_section__text_block {
+    margin-top: 10rem;
+  }
+  /*second section styls*/
+  .second_section {
+    max-width: 150rem;
+  }
+  .second_section__container {
+    width: 78%;
+  }
+  .second_section__container__buttons {
+    width: 40%;
+    margin: 18rem 0;
+    padding-right: 15rem;
+  }
+  .second_section__container__text {
+    width: 60%;
+    margin-top: 10.5rem;
+    padding-top: 23em;
+  }
+  .second_section__container__text .second_section__container__text__heading {
+    line-height: 0.73;
+    font-size: 9rem;
+  }
+  /*third section styls*/
+  .third_section {
+    max-width: 150rem;
+  }
+  .third_section__container {
+    width: 78%;
+    padding: 12rem 0;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 48.72% 14.53% 31.62%;
+        grid-template-columns: 48.72% 14.53% 31.62%;
+    -ms-grid-rows: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto;
+    gap: 3rem 3rem;
+        grid-template-areas: "head head head" "first first second" "first first third" "fourth fifth fifth" "bottom bottom bottom";
+  }
+  .third_section__text_block__heading {
+    font-size: 9rem;
+  }
+  .third_section__container__text {
+    width: 50%;
+    margin: 5rem 0;
+  }
+  /*fourth section styls*/
+  .fourth_section {
+    max-width: 150rem;
+    padding: 15.3rem 0 16.3rem;
+  }
+  .fourth_section__container {
+    width: 78%;
+  }
+  .fourth_section__container input {
+    width: 69.6%;
+  }
+  /*fifth section styls*/
+  .fifth_section {
+    max-width: 150rem;
+    padding: 12rem 0;
+  }
+  .fifth_section__container {
+    width: 78%;
+  }
+  .fifth_section__container .fifth_section__heading {
+    font-size: 9rem;
+  }
+  .fifth_section__container .fifth_section__container__text {
+    width: 50%;
+  }
+  .fifth_section__container .fifth_section__cards_container__content_text_big {
+    font-size: 2rem;
+  }
+  /*sixth section styls*/
+  .sixth_section {
+    max-width: 150rem;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 11.5% 33% 11% 33% 11.5%;
+        grid-template-columns: 11.5% 33% 11% 33% 11.5%;
+    -ms-grid-rows: 25rem 61.6rem;
+        grid-template-rows: 25rem 61.6rem;
+    gap: 0 0;
+        grid-template-areas: "head head head head head" ". inputs . contacts .";
+  }
+  .sixth_section .input:nth-child(4) {
+    height: 25rem;
+  }
+  .sixth_section .sixth_section__head h2 {
+    font-size: 9rem;
+    line-height: 6.5rem;
+    margin-top: 7rem;
+  }
+  .sixth_section .sixth_section__head p {
+    font-size: 2rem;
+  }
+  .sixth_section .sixth_section__head :nth-child(2) {
+    margin-top: 5rem;
+  }
+  .sixth_section .sixth_section__contacts {
+    -ms-grid-row: 2;
+    -ms-grid-column: 4;
+    grid-area: contacts;
+    color: #262626;
+  }
+  .sixth_section .sixth_section__contacts h6 {
+    font-size: 1.7rem;
+    margin-bottom: 0.4rem;
+  }
+  .sixth_section .sixth_section__contacts p {
+    font-size: 2rem;
+    margin-bottom: 0.9rem;
+  }
+  .sixth_section .sixth_section__contacts :nth-child(1) {
+    margin-top: 5rem;
+  }
+  /* footer styls*/
+  .footer {
+    max-width: 150rem;
+  }
+}
+/*# sourceMappingURL=media_queries.css.map */
