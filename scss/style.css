@@ -759,6 +759,38 @@ html {
   font-family: "Raleway Light", sans-serif;
 }
 
+/* footer styls*/
+.footer {
+  margin: 0 auto;
+  min-height: 9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #262626;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer :nth-child(2) {
+  font-family: "Pacifico", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.8rem;
+}
+
+.footer p {
+  font-family: "Raleway Light", sans-serif;
+  font-size: 1.6rem;
+  color: #b9b9b9;
+}
+
+.footer p span {
+  color: #ff2b58;
+  font-weight: 600;
+}
+
 @media (min-width: 0px) and (max-width: 480px) {
   html {
     font-size: 9px;
@@ -902,7 +934,6 @@ html {
   }
   /*sixth section styls*/
   .sixth_section {
-    margin: 0 auto;
     max-width: 48rem;
     width: 100%;
     display: -ms-grid;
@@ -947,6 +978,14 @@ html {
   .input:nth-child(4) {
     height: 20rem;
     margin-bottom: 0;
+  }
+  .footer {
+    max-width: 48rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    line-height: 4;
   }
 }
 
@@ -1092,7 +1131,6 @@ html {
   }
   /*sixth section styls*/
   .sixth_section {
-    margin: 0 auto;
     min-width: 48.1rem;
     max-width: 76.7rem;
     width: 100%;
@@ -1130,6 +1168,15 @@ html {
   }
   .sixth_section__contacts :nth-child(1) {
     margin-top: 2rem;
+  }
+  .footer {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    line-height: 4;
   }
 }
 
@@ -1264,7 +1311,6 @@ html {
   }
   /*sixth section styls*/
   .sixth_section {
-    margin: 0 auto;
     max-width: 76.8rem;
     min-width: 99.1rem;
     width: 100%;
@@ -1307,6 +1353,10 @@ html {
   }
   .sixth_section .sixth_section__contacts :nth-child(1) {
     margin-top: 5rem;
+  }
+  .footer {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
   }
 }
 
@@ -1444,7 +1494,6 @@ html {
   }
   /*sixth section styls*/
   .sixth_section {
-    margin: 0 auto;
     max-width: 119.9rem;
     min-width: 99.2rem;
     width: 100%;
@@ -1487,6 +1536,10 @@ html {
   }
   .sixth_section .sixth_section__contacts :nth-child(1) {
     margin-top: 5rem;
+  }
+  .footer {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
   }
 }
 
@@ -1605,7 +1658,6 @@ html {
   }
   /*sixth section styls*/
   .sixth_section {
-    margin: 0 auto;
     max-width: 150rem;
     width: 100%;
     display: -ms-grid;
@@ -1647,6 +1699,10 @@ html {
   }
   .sixth_section .sixth_section__contacts :nth-child(1) {
     margin-top: 5rem;
+  }
+  /* footer styls*/
+  .footer {
+    max-width: 150rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

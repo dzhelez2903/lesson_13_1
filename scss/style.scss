@@ -650,6 +650,34 @@ html {
   }
 }
 
+/* footer styls*/
+
+.footer {
+  margin: 0 auto;
+  min-height: 9rem;
+  display: flex;
+  background-color: rgb(38, 38, 38);
+  justify-content: space-around;
+  align-items: center;
+
+  :nth-child(2) {
+    font-family: "Pacifico", sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.8rem;
+  }
+
+  p {
+    font-family: "Raleway Light", sans-serif;
+    font-size: 1.6rem;
+    color: rgb(185, 185, 185);
+
+    span {
+      color: rgb(255, 43, 88);
+      font-weight: 600;
+    }
+  }
+}
+
 @media (min-width: 0px) and (max-width: 480px) {
   html {
     font-size: 9px;
@@ -821,7 +849,6 @@ html {
   /*sixth section styls*/
 
   .sixth_section {
-    margin: 0 auto;
     max-width: 48rem;
     width: 100%;
     display: grid;
@@ -833,10 +860,10 @@ html {
       ". inputs ."
       ". contacts .";
 
-  .input:nth-child(4) {
-    height: 20rem;
-    padding-top: 2.5rem;
-      }
+    .input:nth-child(4) {
+      height: 20rem;
+      padding-top: 2.5rem;
+    }
 
     .sixth_section__head {
       h2 {
@@ -878,6 +905,12 @@ html {
   .input:nth-child(4) {
     height: 20rem;
     margin-bottom: 0;
+  }
+
+  .footer {
+    max-width: 48rem;
+    flex-direction: column-reverse;
+    line-height: 4;
   }
 }
 
@@ -1049,7 +1082,6 @@ html {
   /*sixth section styls*/
 
   .sixth_section {
-    margin: 0 auto;
     min-width: 48.1rem;
     max-width: 76.7rem;
     width: 100%;
@@ -1064,7 +1096,7 @@ html {
 
     .input:nth-child(4) {
       height: 25rem;
-       }
+    }
 
     .sixth_section__head {
       h2 {
@@ -1097,6 +1129,13 @@ html {
     :nth-child(1) {
       margin-top: 2rem;
     }
+  }
+
+  .footer {
+    min-width: 48.1rem;
+    max-width: 76.7rem;
+    flex-direction: column-reverse;
+    line-height: 4;
   }
 }
 
@@ -1259,7 +1298,6 @@ html {
   /*sixth section styls*/
 
   .sixth_section {
-    margin: 0 auto;
     max-width: 76.8rem;
     min-width: 99.1rem;
     width: 100%;
@@ -1273,7 +1311,7 @@ html {
 
     .input:nth-child(4) {
       height: 25rem;
-    }  
+    }
 
     .sixth_section__head {
       h2 {
@@ -1309,6 +1347,11 @@ html {
         margin-top: 5rem;
       }
     }
+  }
+
+  .footer {
+    max-width: 76.8rem;
+    min-width: 99.1rem;
   }
 }
 
@@ -1474,7 +1517,6 @@ html {
   /*sixth section styls*/
 
   .sixth_section {
-    margin: 0 auto;
     max-width: 119.9rem;
     min-width: 99.2rem;
     width: 100%;
@@ -1488,7 +1530,7 @@ html {
 
     .input:nth-child(4) {
       height: 25rem;
-    }  
+    }
 
     .sixth_section__head {
       h2 {
@@ -1524,6 +1566,11 @@ html {
         margin-top: 5rem;
       }
     }
+  }
+
+  .footer {
+    max-width: 119.9rem;
+    min-width: 99.2rem;
   }
 }
 
@@ -1678,7 +1725,6 @@ html {
   /*sixth section styls*/
 
   .sixth_section {
-    margin: 0 auto;
     max-width: 150rem;
     width: 100%;
     display: grid;
@@ -1727,5 +1773,11 @@ html {
         margin-top: 5rem;
       }
     }
+  }
+
+  /* footer styls*/
+
+  .footer {
+    max-width: 150rem;
   }
 }
