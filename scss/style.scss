@@ -28,6 +28,7 @@
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 /*header styls*/
@@ -555,11 +556,13 @@ html {
         top: 0;
         left: 0;
         background: rgb(0, 0, 0);
-        background: linear-gradient(0deg,
-            rgba(0, 0, 0, 1) 0%,
-            rgba(98, 69, 138, 1) 20%,
-            rgba(176, 124, 247, 1) 40%,
-            rgba(176, 124, 247, 1) 100%);
+        background: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 1) 0%,
+          rgba(98, 69, 138, 1) 20%,
+          rgba(176, 124, 247, 1) 40%,
+          rgba(176, 124, 247, 1) 100%
+        );
         z-index: 1;
         opacity: 1;
       }
@@ -572,9 +575,11 @@ html {
         position: absolute;
         top: 0;
         left: 0;
-        background-image: linear-gradient(to top,
-            black,
-            rgba(255, 255, 255, 0));
+        background-image: linear-gradient(
+          to top,
+          black,
+          rgba(255, 255, 255, 0)
+        );
         opacity: 0.7;
       }
 
